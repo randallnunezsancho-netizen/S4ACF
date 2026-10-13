@@ -152,7 +152,7 @@ def init_session_state():
         "p3_decision": None,
         "p3_enganche_propuesto": 30.0,
         "p3_garantia": "Ninguna adicional",
-        "p3_justificacion": "",
+        "p3_justification": "",
         "p3_feynman": "",
         "p3_socratic_step": 0,
         "p3_completed": False,
