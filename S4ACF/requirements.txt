@@ -1,0 +1,7 @@
+# Dependencias principales del proyecto (Streamlit, análisis y visualización)
+streamlit>=1.40.0
+plotly>=5.20.0
+pandas>=2.2.0
+numpy>=2.0.0
+Pillow>=10.0.0
+altair>=5.0.0
