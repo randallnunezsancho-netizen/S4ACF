@@ -1,1 +1,13 @@
+# Python & Entornos
 __pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# Archivos y carpetas de la Semana 3 (S3ACF)
+S3ACF/
+S3*
+app.py
+Instrucciones.txt
