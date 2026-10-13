@@ -186,7 +186,7 @@ with st.sidebar:
     # Logo UIA
     logo_path = os.path.join(os.path.dirname(__file__), "Logo-oscuro- UIA.png")
     if os.path.exists(logo_path):
-        st.image(logo_path, use_container_width=True)
+        st.image(logo_path, width="stretch")
     else:
         st.markdown("<h2 style='color:#F5B700; text-align:center;'>UNIVERSIDAD INTERNACIONAL DE LAS AMÉRICAS</h2>", unsafe_allow_html=True)
     
@@ -498,7 +498,7 @@ with tab2:
             height=280,
             margin=dict(l=10, r=10, t=40, b=10)
         )
-        st.plotly_chart(fig_cap, use_container_width=True)
+        st.plotly_chart(fig_cap, width="stretch")
 
         # Evaluación inmediata
         if prop_gasto_fijo_pct > LIMITE_GASTO_FIJO_MAX:
